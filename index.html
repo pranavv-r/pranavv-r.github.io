@@ -270,16 +270,17 @@ footer span { font-family:'JetBrains Mono',monospace; font-size:0.65rem; }
   </p>
   <div class="pill-row">
     <span class="pill">Python</span>
-    <span class="pill">Flutter · Dart</span>
-    <span class="pill">Rasa NLP</span>
     <span class="pill">PHP · MySQL</span>
     <span class="pill">Pen Testing</span>
-    <span class="pill">Kali Linux</span>
     <span class="pill">AI / ML</span>
   </div>
   <div class="cta-row">
     <a class="btn btn-fill" href="#projects">See my work</a>
     <a class="btn btn-ghost" href="mailto:pranavanandhu147@gmail.com">Get in touch</a>
+    <a class="btn btn-ghost" href="https://github.com/pranavv-r" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+      GitHub
+    </a>
   </div>
 </section>
 
@@ -292,9 +293,9 @@ footer span { font-family:'JetBrains Mono',monospace; font-size:0.65rem; }
     <h2 class="sec-title reveal">Who I am</h2>
     <div class="about-layout">
       <div class="about-text reveal">
-        <p>I'm Pranav — a developer who doesn't stay in one lane. I've gone from building cross-platform mobile apps with <strong>Flutter</strong> to hunting web vulnerabilities with <strong>Burp Suite</strong> on live bug bounty platforms. Both require the same thing: understanding systems deeply enough to break or build them.</p>
-        <p>I just completed my <strong>MCA from Amrita Vishwa Vidyapeetham</strong> and graduate in July 2026. My final research on the <strong>LGFNN-Stack phishing detection framework</strong> sits right at the intersection of ML and security — which is exactly where I want to be.</p>
-        <p>I'm actively looking for a full-time role where I can keep growing across software engineering and security, ideally somewhere that ships real products to real users.</p>
+        <p>I'm Pranav — a developer who doesn't stay in one lane. I build full-stack web apps, dig into real security vulnerabilities on live bug bounty platforms, and work at the intersection of ML and security research. Both sides of that require the same thing: understanding systems deeply enough to break or build them.</p>
+        <p>I just completed my <strong>MCA from Amrita Vishwa Vidyapeetham</strong> and graduate in July 2026. My research on the <strong>LGFNN-Stack phishing detection framework</strong> was accepted at <strong>IEEE ICCPCT 2026</strong> — a stacked ensemble that hit a ROC-AUC of 0.9941 across 56,000+ URLs.</p>
+        <p>I'm actively looking for a full-time role in software engineering or security, ideally somewhere that ships real products to real users.</p>
       </div>
       <div class="stat-row reveal">
         <div class="stat-box">
@@ -327,11 +328,12 @@ footer span { font-family:'JetBrains Mono',monospace; font-size:0.65rem; }
     <h2 class="sec-title reveal">What I work with</h2>
     <div class="skill-grid reveal">
       <div class="skill-block">
-        <div class="skill-head"><span class="ico">🧠</span> AI & NLP</div>
+        <div class="skill-head"><span class="ico">🧠</span> AI & ML</div>
         <div class="tag-wrap">
-          <span class="stag">Python</span><span class="stag">Rasa NLU</span>
-          <span class="stag">Intent Classification</span><span class="stag">Entity Extraction</span>
-          <span class="stag">Dialogue Mgmt</span>
+          <span class="stag">Python</span><span class="stag">Hugging Face</span>
+          <span class="stag">Sentence Transformers</span><span class="stag">FAISS</span>
+          <span class="stag">Ensemble Learning</span><span class="stag">NLP</span>
+          <span class="stag">Data Preprocessing</span>
         </div>
       </div>
       <div class="skill-block">
@@ -413,14 +415,15 @@ footer span { font-family:'JetBrains Mono',monospace; font-size:0.65rem; }
         </div>
         <div class="exp-org" style="color:var(--amber);">LGFNN-Stack — Hybrid Phishing Detection Framework</div>
         <ul class="exp-bullets">
-          <li>Reviewed literature on phishing detection to identify effective hybrid ML modeling strategies</li>
-          <li>Assisted with data preprocessing, feature analysis, and evaluation setup for the LGFNN-Stack model</li>
-          <li>Supported experimentation and documentation, validating model behaviour and research outcomes</li>
+          <li>Proposed LGFNN-Stack — a stacked ensemble of <strong>LightGBM + FNN</strong> with a Logistic Regression meta-learner, improving on prior single-model phishing detectors</li>
+          <li>Implemented cross-dataset feature alignment via median imputation across two heterogeneous datasets (56,000+ URLs), enabling leak-free cross-dataset evaluation</li>
+          <li>Set up and ran the full <strong>5-fold stratified CV pipeline</strong> to generate out-of-fold meta-features, achieving ROC-AUC <strong>0.9941</strong> and FPR of 0.0291</li>
         </ul>
         <div class="badge-row">
-          <span class="xbadge xb-purple">Phishing Detection</span>
-          <span class="xbadge xb-purple">ML Research</span>
-          <span class="xbadge xb-blue">Data Preprocessing</span>
+          <span class="xbadge xb-purple">LightGBM</span>
+          <span class="xbadge xb-purple">Ensemble Learning</span>
+          <span class="xbadge xb-blue">Feature Engineering</span>
+          <span class="xbadge xb-blue">Cross-validation</span>
         </div>
       </div>
 
@@ -441,10 +444,10 @@ footer span { font-family:'JetBrains Mono',monospace; font-size:0.65rem; }
         <div class="proj-idx">01</div>
         <div class="proj-icon-wrap">💪</div>
         <div class="proj-name">Health Fitness Chatbot</div>
-        <p class="proj-desc">NLP-powered chatbot using Rasa for real-time fitness query handling — intent classification, dialogue management, and personalised REST API recommendations.</p>
+        <p class="proj-desc">RAG-based medical chatbot — queries embedded with Sentence Transformers, matched against a FAISS vector index, and answered by TinyLlama 1.1B. Full auth, guest mode, and persistent chat history per user.</p>
         <div class="proj-tag-row">
-          <span class="ptag">Flutter</span><span class="ptag">Dart</span>
-          <span class="ptag">Rasa NLU</span><span class="ptag">REST API</span>
+          <span class="ptag">Python Flask</span><span class="ptag">MongoDB</span>
+          <span class="ptag">TinyLlama</span><span class="ptag">FAISS</span><span class="ptag">Sentence Transformers</span>
         </div>
         <div class="proj-foot">✓ Shipped</div>
       </div>
@@ -453,7 +456,7 @@ footer span { font-family:'JetBrains Mono',monospace; font-size:0.65rem; }
         <div class="proj-idx">02</div>
         <div class="proj-icon-wrap">🎬</div>
         <div class="proj-name">T-Flix</div>
-        <p class="proj-desc">Full-stack movie ticket booking platform — secure PHP sessions, AJAX seat selection, payment gateway integration, and a complete admin dashboard.</p>
+        <p class="proj-desc">Full-stack movie ticket booking platform — PHP session auth, location-based movie filtering, dynamic seat availability rendering, card-based payment flow, PHPMailer confirmations, and a full admin dashboard.</p>
         <div class="proj-tag-row">
           <span class="ptag">HTML/CSS</span><span class="ptag">JavaScript</span>
           <span class="ptag">PHP</span><span class="ptag">MySQL</span>
@@ -505,6 +508,10 @@ footer span { font-family:'JetBrains Mono',monospace; font-size:0.65rem; }
     <div class="contact-cards reveal">
       <a class="ccard" href="mailto:pranavanandhu147@gmail.com"><span class="ccard-ico">✉</span> pranavanandhu147@gmail.com</a>
       <a class="ccard" href="https://www.linkedin.com/in/pranav-r-80b980232" target="_blank"><span class="ccard-ico">in</span> LinkedIn</a>
+      <a class="ccard" href="https://github.com/pranavv-r" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:10px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        GitHub
+      </a>
       <a class="ccard" href="tel:9633550586"><span class="ccard-ico">↗</span> 9633550586</a>
     </div>
     <p class="loc reveal">📍 Alappuzha, Kerala, India</p>
